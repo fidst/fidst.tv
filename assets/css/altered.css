@@ -1,0 +1,142 @@
+.spotlight .image {
+  max-width: 529px;
+  min-width: 350px;
+}
+
+.pop {
+  transition: 0.7s;
+}
+
+.pop:hover {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border: 0px solid #000000;
+}
+
+.icon.major {
+  transition: 0.6s;
+}
+
+.icon.major:hover {
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+  /* cursor: pointer; */
+  background-color: #1D998E;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#menu {
+  background: #ff8888;
+  color: #2b2727;
+  -webkit-box-shadow: inset 3px 0px 5px 0px rgba(163,163,163,1);
+  -moz-box-shadow: inset 3px 0px 5px 0px rgba(163,163,163,1);
+  box-shadow: inset 3px 0px 5px 0px rgba(163,163,163,1);
+}
+
+.button.special {
+  border: 1px solid #2c716b;
+  background-color: #ec5c49;
+  transition: 0.6s;
+}
+
+.button.special:hover {
+  background-color: #e64832 !important;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000;
+}
+
+
+
+/* Below is the extensive menu setOptions */
+/* Dropdown Button */
+.dropbtn {
+  color: inherit;
+  font-size: inherit;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  /* background-color: #3e8e41; */
+}
+
+a.one {
+  border-bottom: none;
+}
+
+/* puts the footer in the middle and aligned as the image was removed */
+.footeralign {
+  margin: auto;
+  text-align: center;
+}
+
+/* back to top arrow thing */
+a.back-to-top {
+  display: none;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: #e74c36 url("images/up-arrow.png") no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  transition: 0.6s;
+}
+
+.back-to-top:hover {
+  -webkit-box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
